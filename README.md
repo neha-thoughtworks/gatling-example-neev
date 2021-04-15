@@ -27,14 +27,15 @@ to clone:
 
 `git clone https://github.com/neha-thoughtworks/gatling-example-neev.git`
 
+Add scala sdk library to intellij. Right click on the Project structure, Build Module gatling-example-neev.
+Build should finish succesfully
 
-Step by step instructions are also available on my blog
+Step by step instructions are also available on Shwetha's blog
 https://medium.com/@hegdeshweta/load-performance-testing-using-gatling-1-9123c755dd87
 
 
 To run a simulation:
 Example to run MyFirstTest
-
 
 `mvn gatling:test -Dgatling.simulationClass=testScripts.MyFirstTest`
 
