@@ -1,0 +1,5 @@
+<testsuite name="testScripts.MyFirstTest" tests="1" errors="0" failures="1" time="0">
+<testcase name="Global: percentage of failed events is 0.0" status="false" time="0">
+  <failure type="Global">Actual value: 26.937499999999996</failure>
+</testcase>
+</testsuite>

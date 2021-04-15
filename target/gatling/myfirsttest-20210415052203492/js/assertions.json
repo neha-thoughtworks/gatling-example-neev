@@ -1,0 +1,18 @@
+{
+  "simulation": "testScripts.MyFirstTest",
+  "simulationId": "myfirsttest",
+  "start": 1618464123492,
+  "description": "",
+  "scenarios": ["Go to homepage"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "percentage of failed events",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": false,
+  "message": "Global: percentage of failed events is 0.0",
+  "actualValue": [26.937499999999996]
+}
+  ]
+}
