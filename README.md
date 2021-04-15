@@ -1,4 +1,4 @@
-# GatlingDemoExample
+# gatling-example-neev
 Gatling Demo with Maven
 
 ###  System Setup
