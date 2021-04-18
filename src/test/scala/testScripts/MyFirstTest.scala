@@ -22,7 +22,7 @@ class MyFirstTest extends Simulation{
   //Simulation Definition
   setUp(
     scn.inject(
-      atOnceUsers(100)).protocols(httpProtocol.inferHtmlResources()))
+      atOnceUsers(10)).protocols(httpProtocol.inferHtmlResources()))
     .assertions(global.failedRequests.percent.is(0 ))
 
 }
